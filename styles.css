@@ -1,0 +1,33 @@
+header {
+    background-color: rgb(33, 33, 53);
+    color: white;
+}
+
+h1 {
+    margin-left: 10%;
+    display: flex;
+    align-self: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-links {
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    gap: 25px;
+}
+
+a {
+    color: rgb(211, 204, 204);
+    text-decoration: none;
+}
+
+
+
