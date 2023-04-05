@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: none;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
@@ -132,4 +133,27 @@ img {
 .thor {
     margin-left: 70%;
     font-weight: bold;
+}
+
+.action-container1 {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.action-container2 {
+    display: flex;
+    justify-content: space-between;
+    background: #3882f6;
+    padding: 5%;
+    width: 80%;
+    border-radius: 1rem;
+}
+
+.button2 {
+    border: 2px solid white;
+}
+
+.sign-up {
+    margin-left: 45px;
 }
