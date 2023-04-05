@@ -1,6 +1,7 @@
 header {
-    background-color: rgb(33, 33, 53);
+    background-color: rgb(33, 33, 49);
     color: white;
+    width: 100%;
 }
 
 h3 {
@@ -16,7 +17,7 @@ h3 {
 }
 
 .header-links {
-    margin-right: 100px;
+    margin-right: 150px;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -29,5 +30,39 @@ a {
     text-decoration: none;
 }
 
+.header2 {
+    display: flex;
+    justify-content: space-around;
+}
 
+.header2-left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 60px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.image-placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(102, 114, 124);
+    width: 500px;
+    height: 250px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-right: 85px;
+}
+
+button {
+    background-color: rgb(32, 144, 189);
+    border-radius: 1rem;
+    padding: 15px 32px;
+    width: 150px;
+}
 
