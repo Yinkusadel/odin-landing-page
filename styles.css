@@ -1,5 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
-    background-color: rgb(33, 33, 49);
+    background-color: #1f2937;
     color: white;
     width: 100%;
 }
@@ -43,8 +54,14 @@ a {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 48px;
     margin-bottom: 0;
+    color: #f9faf8;
+}
+
+li {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .image-placeholder{
@@ -60,15 +77,20 @@ h1 {
 }
 
 button {
-    background-color: rgb(32, 144, 189);
+    background-color: #3882f6;
     border-radius: 1rem;
     padding: 15px 32px;
     width: 150px;
 }
 
-.info-header {
+.info-header-wrapper {
     display: flex;
     justify-content: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
 }
 
 img {
@@ -82,8 +104,32 @@ img {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 50px;
 }
 
 .text {
     width: 100px;
+}
+
+#concern {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #e5e7eb;
+    padding: 50px;
+}
+
+.quotes {
+    width: 50%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.thor {
+    margin-left: 70%;
+    font-weight: bold;
 }
