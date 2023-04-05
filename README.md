@@ -86,9 +86,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- Photo by Jill Evans from Pexels: https://www.pexels.com/photo/landscape-photography-of-cliff-3539517/
+- Photo by Efrem  Efre  from Pexels: https://www.pexels.com/photo/yellow-foldable-chairs-and-tables-on-the-concrete-pavement-13762172/
+- Photo by Beyza Kaplan from Pexels: https://www.pexels.com/photo/entrance-to-a-building-13475585/
+- Photo by Valeria Nikitina from Pexels: https://www.pexels.com/photo/a-door-to-a-building-9678168/
 
 ## 📝 License
 

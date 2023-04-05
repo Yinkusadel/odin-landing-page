@@ -10,7 +10,7 @@ h3 {
     align-self: center;
 }
 
-.header {
+#header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +30,7 @@ a {
     text-decoration: none;
 }
 
-.header2 {
+#header2 {
     display: flex;
     justify-content: space-around;
 }
@@ -66,3 +66,24 @@ button {
     width: 150px;
 }
 
+.info-header {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    border: 3px solid #000000;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text {
+    width: 100px;
+}
