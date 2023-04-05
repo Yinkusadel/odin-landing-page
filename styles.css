@@ -157,3 +157,11 @@ img {
 .sign-up {
     margin-left: 45px;
 }
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    background: #1f2937;
+    padding: 50px;
+    color: white;
+}
