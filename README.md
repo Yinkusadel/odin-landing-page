@@ -25,7 +25,7 @@
 
 ## Live Demo
 
-[Live Demo Link](yinkusadel-top-landing-page.netlify.app)
+[Live Demo Link](https://yinkusadel-top-landing-page.netlify.app)
 
 ### Development (Running locally)
 
