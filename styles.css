@@ -1,167 +1,167 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap";
+
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
-
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 header {
-    background-color: #1f2937;
-    color: white;
-    width: 100%;
+  background-color: #1f2937;
+  color: white;
+  width: 100%;
 }
 
 h3 {
-    margin-left: 10%;
-    display: flex;
-    align-self: center;
+  margin-left: 10%;
+  display: flex;
+  align-self: center;
 }
 
 #header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-links {
-    margin-right: 150px;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0;
-    gap: 25px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  gap: 25px;
 }
 
 a {
-    color: rgb(211, 204, 204);
-    text-decoration: none;
+  color: rgb(211 204 204);
+  text-decoration: none;
 }
 
 #header2 {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .header2-left {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-left: 60px;
 }
 
 h1 {
-    font-size: 48px;
-    margin-bottom: 0;
-    color: #f9faf8;
+  font-size: 48px;
+  margin-bottom: 0;
+  color: #f9faf8;
 }
 
 li {
-    font-size: 18px;
-    color: #e5e7eb;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
-.image-placeholder{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(102, 114, 124);
-    width: 500px;
-    height: 250px;
-    margin-top: 70px;
-    margin-bottom: 100px;
-    margin-right: 85px;
+.image-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(102 114 124);
+  width: 500px;
+  height: 250px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  margin-right: 85px;
 }
 
 button {
-    background-color: #3882f6;
-    border-radius: 1rem;
-    padding: 15px 32px;
-    width: 150px;
+  background-color: #3882f6;
+  border-radius: 1rem;
+  padding: 15px 32px;
+  width: 150px;
 }
 
 .info-header-wrapper {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .info-header {
-    font-size: 36px;
-    font-weight: 900;
+  font-size: 36px;
+  font-weight: 900;
 }
 
 img {
-    width: 100px;
-    height: 100px;
-    border-radius: 8px;
-    border: 3px solid #000000;
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  border: 3px solid #000;
 }
 
 #image {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
 }
 
 .text {
-    width: 100px;
+  width: 100px;
 }
 
 #concern {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background: #e5e7eb;
-    padding: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #e5e7eb;
+  padding: 50px;
 }
 
 .quotes {
-    width: 50%;
+  width: 50%;
 }
 
 .quote-text {
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 200;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
 }
 
 .thor {
-    margin-left: 70%;
-    font-weight: bold;
+  margin-left: 70%;
+  font-weight: bold;
 }
 
 .action-container1 {
-    display: flex;
-    justify-content: center;
-    padding: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
 }
 
 .action-container2 {
-    display: flex;
-    justify-content: space-between;
-    background: #3882f6;
-    padding: 5%;
-    width: 80%;
-    border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background: #3882f6;
+  padding: 5%;
+  width: 80%;
+  border-radius: 1rem;
 }
 
 .button2 {
-    border: 2px solid white;
+  border: 2px solid white;
 }
 
 .sign-up {
-    margin-left: 45px;
+  margin-left: 45px;
 }
 
 .copyright {
-    display: flex;
-    justify-content: center;
-    background: #1f2937;
-    padding: 50px;
-    color: white;
+  display: flex;
+  justify-content: center;
+  background: #1f2937;
+  padding: 50px;
+  color: white;
 }
