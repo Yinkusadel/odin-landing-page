@@ -72,9 +72,7 @@ li {
   background: rgb(102 114 124);
   width: 500px;
   height: 250px;
-  margin-top: 70px;
-  margin-bottom: 100px;
-  margin-right: 85px;
+  margin: 70px 85px 100px;
 }
 
 button {
