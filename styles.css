@@ -28,8 +28,14 @@ h3 {
   justify-content: space-between;
 }
 
+.header-logo {
+  margin-top: 20px;
+  margin-left: 170px;
+}
+
 .header-links {
-  margin-right: 150px;
+  margin-top: 20px;
+  margin-right: 110px;
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -52,6 +58,12 @@ a {
   flex-direction: column;
   width: 30%;
   padding-left: 60px;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.website-subtext {
+  margin-bottom: 15px;
 }
 
 h1 {
@@ -72,14 +84,16 @@ li {
   background: rgb(102 114 124);
   width: 500px;
   height: 250px;
-  margin: 70px 85px 100px;
+  margin: 110px 100px 100px;
 }
 
 button {
   background-color: #3882f6;
   border-radius: 1rem;
-  padding: 15px 32px;
   width: 150px;
+  height: 40px;
+  color: #e5e7eb;
+  font-size: 20px;
 }
 
 .info-header-wrapper {
@@ -90,24 +104,34 @@ button {
 .info-header {
   font-size: 36px;
   font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 150px;
   border-radius: 8px;
-  border: 3px solid #000;
+  border: 3px solid #2c70af;
 }
 
 #image {
   display: flex;
-  justify-content: center;
-  gap: 50px;
+  justify-content: space-evenly;
   margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
 }
 
 .text {
-  width: 100px;
+  align-items: center;
 }
 
 #concern {
@@ -163,3 +187,4 @@ img {
   padding: 50px;
   color: white;
 }
+
