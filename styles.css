@@ -43,8 +43,12 @@ h3 {
   gap: 25px;
 }
 
-a {
-  color: rgb(211 204 204);
+a:hover {
+  color: red;
+}
+
+.link {
+  color: #e7e5eb;
   text-decoration: none;
 }
 
