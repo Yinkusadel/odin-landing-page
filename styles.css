@@ -99,6 +99,10 @@ button {
   font-size: 20px;
 }
 
+button:hover {
+  color: red;
+}
+
 .info-header-wrapper {
   display: flex;
   justify-content: center;
