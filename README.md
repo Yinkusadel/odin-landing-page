@@ -1,6 +1,6 @@
 # Odin landing page
 
-> A landing page using semantic html tags and css flex box
+> A landing page using semantic html tags and css flex box and responsive design
 
 ![screenshot](./app_screenshot.png)
 
