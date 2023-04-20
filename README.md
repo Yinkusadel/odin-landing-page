@@ -7,12 +7,9 @@
 ## Built With
 
 - ### HTML5 elements
-  - **Heading element**
-    `h2` `h3`
-  - **Block element**
-    `div` `p` `blockquote`
-  - **inline element**
-    `button`
+  - **Heading element**`h2` `h3`
+  - **Block element** `div` `p` `blockquote`
+  - **inline element**`button`
 - ### CSS properties
   - CSS @import Rule using `@import` to import a style sheet into another style sheet
   - CSS background for page aesthetic using `background-color`
