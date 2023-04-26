@@ -16,10 +16,10 @@ header {
   padding: 0 10%;
 }
 
-#header {
+.header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  height: 60px;
 }
 
 .header-links {
@@ -27,7 +27,7 @@ header {
   justify-content: space-between;
   list-style: none;
   padding: 0;
-  width: 40%;
+  width: 45%;
 }
 
 a:hover {
@@ -39,20 +39,21 @@ a:hover {
   text-decoration: none;
 }
 
-#hero-section {
+.hero-section {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 .header2-left {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 50%;
   justify-content: center;
 }
 
 .website-subtext {
-  margin-bottom: 15px;
+  font-size: 18px;
 }
 
 h1 {
@@ -71,8 +72,14 @@ li {
   justify-content: center;
   align-items: center;
   background: rgb(102 114 124);
-  width: 40%;
+  width: 45%;
   height: 250px;
+  margin-bottom: 50px;
+}
+
+.button1 {
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 button {
@@ -107,7 +114,7 @@ img {
   border: 3px solid #2c70af;
 }
 
-#image {
+.image {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 50px;
@@ -126,7 +133,7 @@ img {
   text-align: center;
 }
 
-#concern {
+.concern {
   display: flex;
   justify-content: center;
   width: 100%;
