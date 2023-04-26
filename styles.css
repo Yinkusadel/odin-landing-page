@@ -13,12 +13,7 @@ body {
 header {
   background-color: #1f2937;
   color: white;
-}
-
-h3 {
-  margin-left: 10%;
-  display: flex;
-  align-self: center;
+  padding: 0 5%;
 }
 
 #header {
@@ -27,19 +22,12 @@ h3 {
   justify-content: space-between;
 }
 
-.header-logo {
-  margin-top: 20px;
-  margin-left: 170px;
-}
-
 .header-links {
-  margin-top: 20px;
-  margin-right: 110px;
   display: flex;
   justify-content: space-between;
   list-style: none;
   padding: 0;
-  gap: 25px;
+  width: 40%;
 }
 
 a:hover {
@@ -51,18 +39,16 @@ a:hover {
   text-decoration: none;
 }
 
-#header2 {
+#hero-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header2-left {
   display: flex;
   flex-direction: column;
   width: 30%;
-  padding-left: 60px;
   justify-content: center;
-  margin-left: 100px;
 }
 
 .website-subtext {
@@ -85,9 +71,8 @@ li {
   justify-content: center;
   align-items: center;
   background: rgb(102 114 124);
-  width: 500px;
+  width: 40%;
   height: 250px;
-  margin: 110px 100px 100px;
 }
 
 button {
@@ -175,16 +160,13 @@ img {
   justify-content: space-between;
   background: #3882f6;
   padding: 5%;
-  width: 80%;
+  width: 100%;
   border-radius: 1rem;
+  color: #e5e7eb;
 }
 
 .button2 {
   border: 2px solid white;
-}
-
-.sign-up {
-  margin-left: 45px;
 }
 
 .copyright {
