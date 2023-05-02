@@ -18,20 +18,14 @@ header {
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 60px;
 }
 
-.header-logo {
-  width: 40%;
-  display: flex;
-  justify-content: flex-start;
-}
-
 .header-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   list-style: none;
   padding: 0;
   width: 60%;
